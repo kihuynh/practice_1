@@ -4,10 +4,31 @@
   box-sizing: border-box;
 }
 
-.nav-left {
-  float: left;
+.nav-container {
+  display: flex;
+  justify-content: center;
 }
 
-.nav-right {
-  float: right;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+}
+
+.links-left {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+
+
+.links-right {
+  display: flex;
+  border: 1px solid blue;
+}
+
+#menu {
+  margin-right: 20px;
 }
