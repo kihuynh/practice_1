@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'arial', sans-serif;
 }
 
 .nav-container {
@@ -12,9 +13,9 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   width: 100%;
   padding: 20px 20px 20px 20px;
+  font-size: 15px;
 }
 
 .links-left {
@@ -27,17 +28,39 @@
   display: flex;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#sign-in {
+  background-color: #4385F7;
+  font-weight: bold;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 2px;
+
+}
+
 #menu {
   margin-right: 20px;
+  display: flex;
+  align-items: center;
+
 }
 
 .logo {
   display: flex;
   width: 900px;
   padding : 5% 0 20px 0;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 0 auto;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .form {
@@ -47,19 +70,38 @@
   width: 500px;
   margin: 0 auto 0 auto;
   padding: 20px 0 20px; 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
-#button {
-  margin-top: 25px;
-}
-
-#search-bar {
+input {
   width: 800px;
+  border: 1px solid #9b9999;
+  border-radius: 50px;
+  padding: 10px;
 }
+
+#search-button {
+  color: #878787;
+  font-size: 15px;
+  border: .5px solid #eeeeee;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 25px;
+}
+
+#search-button:hover {
+  border: .5px solid #d6d6d6;
+  box-shadow: 1px 1px #eeeeee;
+}
+
+#search-link:hover {
+  text-decoration: none;
+}
+
 
 .footer {
   background-color: #eeeeee;
+  font-size: 15px;
   padding-top: 15px;
   position: absolute;
   width: 100%;
@@ -80,4 +122,5 @@
 
 #foot-links {
   margin-right: 20px;
+  color: #9b9999;
 }
