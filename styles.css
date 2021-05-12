@@ -80,12 +80,23 @@ a:hover {
 }
 
 input {
-  width: 800px;
+  width: 500px;
   border: 1px solid #9b9999;
   border-radius: 50px;
   padding: 10px;
+  text-indent: 35px;
 }
 
+/** div set to relative then input set to absolute for it to stay within input field **/
+.search-icon {
+  position: relative;
+}
+
+#mat-search {
+  position: absolute;
+  padding: 8px;
+  left: 0px;
+}
 #search-button {
   color: #878787;
   font-size: 15px;
