@@ -54,6 +54,12 @@ a:hover {
 
 }
 
+.ham-icon {
+  width: 25px;
+  height: 25px;
+  background-color: #9b9999;
+  border-radius: 50%;
+}
 .logo {
   display: flex;
   width: 900px;
